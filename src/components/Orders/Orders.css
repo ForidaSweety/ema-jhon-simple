@@ -1,0 +1,16 @@
+.reviewContainer{
+    margin: 70px auto;
+}
+.proceed-link{
+    text-decoration: none;
+}
+.btn-proceed{
+    background:#FF9900;
+
+    display: flex;
+    margin: 10px auto;
+    color: white;
+    justify-content: space-between;
+    width: 95%;
+    
+}

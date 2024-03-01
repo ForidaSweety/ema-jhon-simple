@@ -1,0 +1,47 @@
+.reviewItem {
+    width: 570px;
+    border: 1px solid goldenrod;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    padding: 8px 25px 8px 8px;
+    display: flex;
+    align-items: center;
+}
+
+.reviewItem .productTitle {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.0015em;
+}
+.reviewInfo {
+  flex-grow: 1;  
+}
+.reviewInfo p{
+margin: 0 15px ;
+}
+.reviewItem img {
+    width: 90px;
+    height: 90px;
+
+    border-radius: 8px;
+}
+.text{
+    color:#FF9900 ;
+}
+.btn-dlte{
+    height: 55px;
+    width: 55px;
+    border-radius: 50px;
+    background-color: rgba(235, 87, 87, 0.3);
+    /* btn center e anar jonno */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.dlte-icon{
+    color: #EB5757;
+    font-size: 27px;
+
+}
